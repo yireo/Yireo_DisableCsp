@@ -9,3 +9,10 @@ Technically, it replaces the default implementation of `Magento\Csp\Api\CspRende
 composer require yireo/magento2-disable-csp
 bin/magento module:enable Yireo_DisableCsp
 ```
+
+### Alternatives
+- [Wouyang_DisableCsp](https://github.com/weiweiouyang/magento2-module-disable-csp/)
+  - Disables the `csp_render` observer
+- [baldwin-agency/magento2-module-csp-shim](https://github.com/baldwin-agency/magento2-module-csp-shim/)
+  - Overrides the Magento CSP module itself and its namespaces (ugly)
+
