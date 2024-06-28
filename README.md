@@ -9,6 +9,9 @@ Technically, it replaces the default implementation of `Magento\Csp\Api\CspRende
 composer require yireo/magento2-disable-csp
 bin/magento module:enable Yireo_DisableCsp
 ```
+### Remark
+
+The `magento/module-csp` package is still necessary and should not be removed via composer replace.
 
 ### Alternatives
 - [Wouyang_DisableCsp](https://github.com/weiweiouyang/magento2-module-disable-csp/)
