@@ -1,6 +1,6 @@
 {
   "name": "yireo/magento2-disable-csp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disable CSP",
   "type": "magento2-module",
   "require": {
