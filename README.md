@@ -1,4 +1,4 @@
-# Yireo DummyCsp
+# Yireo DisableCsp
 
 **For shops that don't need CSP to be enabled, this module offers a quick solution. Just install and enable the module and you're done.**
 
