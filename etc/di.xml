@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\Csp\Api\CspRendererInterface" type="Yireo\DisableCsp\Csp\DummyCspRenderer"/>
+
+    <type name="Magento\Deploy\Service\DeployStaticContent">
+        <plugin name="removeAllAssetIntegrityHashes" type="Magento\Csp\Plugin\RemoveAllAssetIntegrityHashes" disabled="1" />
+        <plugin name="storeAssetIntegrityHashes" type="Magento\Csp\Plugin\StoreAssetIntegrityHashes" disabled="1" />
+    </type>
 </config>
