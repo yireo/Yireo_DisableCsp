@@ -1,0 +1,7 @@
+{
+    "module_name": "Yireo_DisableCsp",
+    "composer_name": "yireo/magento2-disable-csp",
+    "sequence": [
+        "Magento_Csp"
+    ]
+}
