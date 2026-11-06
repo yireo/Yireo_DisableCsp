@@ -2,7 +2,8 @@
     "module_name": "Yireo_DisableCsp",
     "composer_name": "yireo/magento2-disable-csp",
     "sequence": [
-        "Magento_Csp"
+        "Magento_Csp",
+        "Magento_Deploy"
     ],
     "php_versions": [
         "7.4",
@@ -14,7 +15,9 @@
     "skip_magento_versions": [],
     "skip_css_utils": false,
     "modules": [
-        "Magento_Csp"
+        "Magento_Csp",
+        "Magento_Deploy",
+        "Magento_Store"
     ],
     "components": [],
     "config": [],
