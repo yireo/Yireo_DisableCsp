@@ -4,6 +4,7 @@
         <sequence>
             <module name="Magento_Csp"/>
             <module name="Magento_Deploy"/>
+            <module name="Magento_RequireJs"/>
         </sequence>
     </module>
 </config>

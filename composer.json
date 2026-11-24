@@ -5,8 +5,9 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "^100.0|^101.0|^102.0|^103.0",
-        "magento/module-csp": "^100.0",
+        "magento/module-csp": "^100.4.5",
         "magento/module-deploy": "^100.4",
+        "magento/module-require-js": "^100.4",
         "php": ">=8.2 <8.6"
     },
     "license": [
