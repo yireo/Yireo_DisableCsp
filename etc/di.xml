@@ -6,4 +6,20 @@
         <plugin name="removeAllAssetIntegrityHashes" type="Magento\Csp\Plugin\RemoveAllAssetIntegrityHashes" disabled="1" />
         <plugin name="storeAssetIntegrityHashes" type="Magento\Csp\Plugin\StoreAssetIntegrityHashes" disabled="1" />
     </type>
+
+    <type name="Magento\Framework\View\Asset\GroupedCollection">
+        <plugin name="addDefaultPropertiesToGroup" type="Magento\Csp\Plugin\AddDefaultPropertiesToGroupPlugin" disabled="1" />
+    </type>
+
+    <type name="Magento\RequireJs\Model\FileManager">
+        <plugin name="addResourceIntegrityAfterAssetCreate" type="Magento\Csp\Plugin\GenerateAssetIntegrity" disabled="1" />
+    </type>
+
+    <type name="Magento\Deploy\Service\Bundle">
+        <plugin name="addResourceIntegrityAfterBundleDeploy" type="Magento\Csp\Plugin\GenerateBundleAssetIntegrity" disabled="1" />
+    </type>
+
+    <type name="Magento\Framework\View\Asset\MergeStrategy\FileExists">
+        <plugin name="addResourceIntegrityAfterMergeFile" type="Magento\Csp\Plugin\GenerateMergedAssetIntegrity" disabled="1" />
+    </type>
 </config>
