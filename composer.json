@@ -10,9 +10,7 @@
         "magento/module-require-js": "^100.4",
         "php": ">=8.2 <8.6"
     },
-    "license": [
-        "OSL-3.0"
-    ],
+    "license": "OSL-3.0",
     "autoload": {
         "files": [
             "registration.php"
